@@ -1,8 +1,0 @@
-[build]
-  functions = "netlify/functions"
-
-# Routes /api/anime?... to /.netlify/functions/anime?...
-[[redirects]]
-  from = "/api/*"
-  to   = "/.netlify/functions/:splat"
-  status = 200
